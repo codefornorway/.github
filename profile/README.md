@@ -9,8 +9,6 @@
 **Code for Norway** is a non-profit civic technology initiative focused on developing open-source digital tools that address societal challenges across the country.
 The initiative brings together a diverse group of developers, designers, public servants, students, activists, and citizens to co-create digital services with real-world impact.
 
----
-
 ## Digital Innovation for the Public Good
 
 Inspired by global civic tech movements, Code for Norway aims to improve the relationship between people and public institutions through accessible and transparent digital solutions.
@@ -22,8 +20,6 @@ The Code for Norway initiative is:
 * **driven by community**: Solutions are developed collaboratively, in the open, and under permissive open-source licenses.
 
 By empowering citizens with technology, we promote transparency, inclusion, and participation in public life.
-
----
 
 ## Architecture and Project Framework
 
@@ -39,8 +35,6 @@ Each project under the organization adheres to the following principles:
 The organization currently maintains several repositories, including experimental projects, reference applications, and public infrastructure tools.
 You can explore them all here:
 ➡️ [github.com/codefornorway](https://github.com/codefornorway)
-
----
 
 ## ⭐ Featured Project – Help Map
 
@@ -58,8 +52,6 @@ The Help Map platform provides:
 * ⚡ Real-time data synchronization and open data accessibility
 
 > [🔗 Learn more and explore the repository](https://github.com/codefornorway/help-map)
-
----
 
 ## High Level Technical Overview
 
@@ -79,8 +71,6 @@ graph TD;
 
 The system is designed to support modularity and interoperability with other civic tech tools that may be developed by Code for Norway in the future.
 
----
-
 ## Get Involved
 
 ### For Contributors
@@ -97,8 +87,6 @@ The system is designed to support modularity and interoperability with other civ
 3. 💻 Submit pull requests to improve the projects
 4. 📧 Reach out to collaborate or suggest new ideas
 
----
-
 ## Related Content
 
 ### Key Themes
@@ -113,13 +101,9 @@ The system is designed to support modularity and interoperability with other civ
 * [How can I contribute without coding?](https://opensource.guide/how-to-contribute/)
 * [Can municipalities participate?](mailto:sefabulak@icloud.com)
 
----
+#### Last update
 
-## Last Update
-
-13 July 2025
-
----
+14 July 2025
 
 ## About Us
 
@@ -127,8 +111,6 @@ The system is designed to support modularity and interoperability with other civ
 * [License](https://github.com/codefornorway/help-map/blob/main/LICENSE)
 * [Community Guidelines](https://github.com/codefornorway/.github/blob/main/CODE_OF_CONDUCT.md)
 * [Accessibility Statement](https://github.com/codefornorway/.github/blob/main/ACCESSIBILITY.md)
-
----
 
 ## [Code for Norway on GitHub](https://github.com/codefornorway)
 
