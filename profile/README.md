@@ -1,3 +1,5 @@
+<img width="2780" height="768" alt="Code for Norge" src="https://github.com/user-attachments/assets/5f9e5902-f096-4796-a71d-afe786216ce5" />
+
 # Code for Norway 🇳🇴
 
 > **Building a better Norway through civic technology**
