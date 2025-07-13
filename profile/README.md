@@ -4,60 +4,50 @@
 
 # Code for Norway 🇳🇴
 
-## Civic Technology for a Stronger, More Inclusive Norway
+## Advancing Public Infrastructure through Civic Technology
 
-**Code for Norway** is a non-profit civic technology initiative focused on developing open-source digital tools that address societal challenges across the country.
-The initiative brings together a diverse group of developers, designers, public servants, students, activists, and citizens to co-create digital services with real-world impact.
+**Code for Norway** is an independent, non-profit civic technology initiative committed to designing, developing, and deploying open-source digital solutions that address social, regional, and national challenges.
+Our mission is to enhance public sector innovation through participatory development, engineering excellence, and community collaboration.
 
-## Digital Innovation for the Public Good
+## Strategic Objective
 
-Inspired by global civic tech movements, Code for Norway aims to improve the relationship between people and public institutions through accessible and transparent digital solutions.
+The initiative is founded on the principle that well-implemented, transparent technology can significantly improve the efficiency, inclusivity, and responsiveness of public services.
 
-The Code for Norway initiative is:
+Key principles of our initiative include:
 
-* **open to all contributors**: Any developer, designer, student, or citizen with a civic mindset is welcome to participate.
-* **designed for real needs**: Projects address social and local challenges in Norwegian communities.
-* **driven by community**: Solutions are developed collaboratively, in the open, and under permissive open-source licenses.
+* **Open Participation**: Inclusive contribution model open to developers, researchers, designers, students, and public servants.
+* **Evidence-Based Development**: Solutions derived from validated community needs and stakeholder input.
+* **Modular Architecture**: Emphasis on reusable components and interoperability with public infrastructure.
+* **Open Standards and Licensing**: All source code is publicly accessible under permissive open-source licenses.
 
-By empowering citizens with technology, we promote transparency, inclusion, and participation in public life.
+## System Architecture and Organizational Framework
 
-## Architecture and Project Framework
+The Code for Norway project structure is designed to scale with community needs and evolving technological capabilities. Our repositories follow a layered architecture model:
 
-Since its founding, Code for Norway has emphasized building a flexible, scalable and community-driven technical foundation for civic innovation.
+* **Presentation Layer**: Frontend interfaces built with modern web frameworks.
+* **Data Layer**: Realtime databases and RESTful APIs hosted on open cloud platforms.
+* **Integration Layer**: GIS, authentication, and public data pipelines.
+* **Security and Compliance**: Privacy-aware implementations, aligning with GDPR and accessibility standards.
 
-Each project under the organization adheres to the following principles:
-
-* Modular and reusable architecture
-* Free and open-source software
-* Inclusive and human-centered design
-* Compatibility with public infrastructure when applicable
-
-The organization currently maintains several repositories, including experimental projects, reference applications, and public infrastructure tools.
-You can explore them all here:
+Explore our organizational repositories:
 ➡️ [github.com/codefornorway](https://github.com/codefornorway)
 
-## ⭐ Featured Project – Help Map
+## ⭐ Flagship Project: Help Map
 
 ![Help Map](https://github.com/user-attachments/assets/8d539bc3-9ee4-4b20-a374-f51e88e7851f)
 
-**Help Map** is an interactive, community-powered platform that connects people in need with essential services such as food, clothing, and emergency shelter.
+### 🧭 Abstract
 
-The project demonstrates the potential of civic technology to reduce inequality and improve access to local support services across Norwegian cities and towns.
+**Help Map** is a civic technology platform designed to map and disseminate life-critical resources (e.g. food, clothing, emergency housing) across Norway. The platform leverages geospatial data, community contributions, and real-time updates to connect vulnerable individuals with essential services in their immediate vicinity.
 
-The Help Map platform provides:
+### 📐 System Overview
 
-* 🗺️ Visual, location-based service listings
-* 👥 Community-driven data input and updates
-* 📱 Mobile-first, inclusive user experience
-* ⚡ Real-time data synchronization and open data accessibility
+**Project Title**: Help Map — Civic Resource Navigation System
+**Target Demographic**: Displaced individuals, social workers, NGOs, local governments
+**Primary Objective**: To improve accessibility to basic needs through accurate geolocation and open service mapping
+**Development Model**: Community-contributed, publicly governed, academically inspired
 
-> [🔗 Learn more and explore the repository](https://github.com/codefornorway/help-map)
-
-## High Level Technical Overview
-
-### Help Map Platform Architecture
-
-A high-level overview of the Help Map project can be found in the diagram below.
+### 🏗 Technical Architecture
 
 ```mermaid
 graph TD;
@@ -65,62 +55,94 @@ graph TD;
     B[Nuxt 3 UI] --> A
     C[Supabase Backend] --> A
     D[Mapbox Integration] --> A
-    E[Auth, Database, APIs] --> C
-    F[Real-time Sync] --> C
+    E[Authentication, RLS Policies] --> C
+    F[PostgreSQL + Realtime Subscriptions] --> C
 ```
 
-The system is designed to support modularity and interoperability with other civic tech tools that may be developed by Code for Norway in the future.
+**Frontend**
 
-## Get Involved
+* Framework: `Nuxt 3` (Vue 3 composition API, SSR-enabled)
+* Design: Mobile-first, WCAG-compliant, multilingual-ready
 
-### For Contributors
+**Backend**
 
-* **Developers**: Help implement, test, and maintain open-source software
-* **Designers**: Enhance usability, accessibility, and visual clarity
-* **Researchers**: Analyze needs, evaluate solutions, and support decision-making
-* **Community Members**: Test applications, provide feedback, and promote outreach
+* Platform: `Supabase` (open-source Firebase alternative)
+* Database: `PostgreSQL` with RLS (Row-Level Security) for multi-tenant data protection
+* Realtime Engine: Supabase Channels (websocket-based pub/sub)
+
+**Map Layer**
+
+* Provider: `Mapbox GL JS`
+* Features: Dynamic clustering, service category filtering, location-based search
+
+### 📊 Engineering Goals
+
+| Metric                      | Target Value                    |
+| --------------------------- | ------------------------------- |
+| API Response Time (P95)     | < 250ms                         |
+| Map Data Load (initial)     | < 1.5s                          |
+| Availability (12-month avg) | ≥ 99.9%                         |
+| Mobile Accessibility Score  | ≥ 90 (Lighthouse Accessibility) |
+| Contributor Onboarding Time | < 30 minutes                    |
+
+### 🎯 Project Outcomes
+
+* **Social Impact**: Reduces informational inequality and supports emergency response coordination
+* **Technical Scalability**: Architecture supports federation and localized service expansion
+* **Open Governance**: Maintained under transparent GitHub workflows, with discussion threads open to public input
+
+> [🔗 Access the Help Map repository](https://github.com/codefornorway/help-map)
+
+## Contribution Framework
+
+We welcome contributors from all disciplines and sectors.
+
+### Roles
+
+* **Software Engineers**: Full-stack or frontend-focused development
+* **UX Designers**: Accessibility and usability improvement
+* **Policy Analysts & Researchers**: Needs assessments and civic alignment
+* **Community Contributors**: Field data validation and outreach
 
 ### How to Participate
 
-1. ⭐ Star our repositories and follow our work
-2. 🐛 Report issues or request new features
-3. 💻 Submit pull requests to improve the projects
-4. 📧 Reach out to collaborate or suggest new ideas
+1. ⭐ Star the repository and follow our updates
+2. 🐛 Submit issues or improvement suggestions
+3. 💻 Open pull requests with new features or fixes
+4. 📧 Contact us to propose new projects or pilot collaborations
 
-## Related Content
+## Knowledge and Research
 
-### Key Themes
+### Thematic References
 
-* [Civic Technology Overview](https://en.wikipedia.org/wiki/Civic_technology)
-* [Digital Inclusion in Norway (SSB)](https://www.ssb.no/en)
-* [Open Source for Government (EU OSOR)](https://joinup.ec.europa.eu/collection/open-source-observatory-osor)
+* [Civic Technology: Definitions and Frameworks](https://en.wikipedia.org/wiki/Civic_technology)
+* [Digital Inclusion in the Nordic Region – SSB](https://www.ssb.no/en)
+* [Open Source in European Public Administration – EU OSOR](https://joinup.ec.europa.eu/collection/open-source-observatory-osor)
 
-### Frequently Asked
+### Frequently Asked Questions
 
 * [What is civic tech?](https://codeforall.org/about/)
-* [How can I contribute without coding?](https://opensource.guide/how-to-contribute/)
-* [Can municipalities participate?](mailto:sefabulak@icloud.com)
+* [How to contribute without coding?](https://opensource.guide/how-to-contribute/)
+* [Are municipalities encouraged to collaborate?](mailto:sefabulak@icloud.com)
 
-#### Last update
+## Administrative Details
 
-14 July 2025
+**Last Update**: 14 July 2025
 
-## About Us
+### Legal & Compliance
 
 * [Privacy Statement](https://github.com/codefornorway/.github/blob/main/PRIVACY.md)
-* [License](https://github.com/codefornorway/help-map/blob/main/LICENSE)
-* [Community Guidelines](https://github.com/codefornorway/.github/blob/main/CODE_OF_CONDUCT.md)
-* [Accessibility Statement](https://github.com/codefornorway/.github/blob/main/ACCESSIBILITY.md)
+* [License (MIT)](https://github.com/codefornorway/help-map/blob/main/LICENSE)
+* [Code of Conduct](https://github.com/codefornorway/.github/blob/main/CODE_OF_CONDUCT.md)
+* [Accessibility Commitment](https://github.com/codefornorway/.github/blob/main/ACCESSIBILITY.md)
 
-## [Code for Norway on GitHub](https://github.com/codefornorway)
+## Contact and Communication
 
 * 📧 Email: [sefabulak@icloud.com](mailto:sefabulak@icloud.com)
-* 💬 Discussions: [GitHub Discussions](https://github.com/codefornorway/help-map/discussions)
-* 📌 Issues: Use individual repository issue tabs
-
----
+* 💬 Community Threads: [GitHub Discussions](https://github.com/codefornorway/help-map/discussions)
+* 🗂 Issue Tracking: Use the issue tab in each relevant repository
 
 <div align="center">
-  <strong>🌟 Join us in building digital tools for the public good</strong><br/>
-  <em>Let’s shape a better Norway — one commit at a time.</em>
+  <strong>🚀 Advancing digital public infrastructure — transparently, openly, together.</strong><br/>
+  <em>Let’s build a more inclusive Norway through civic technology and engineering excellence.</em>
 </div>
