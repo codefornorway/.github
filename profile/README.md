@@ -1,4 +1,4 @@
-<img width="2780" height="768" alt="Code for Norge" src="https://github.com/user-attachments/assets/5f9e5902-f096-4796-a71d-afe786216ce5" />
+<img width="2780" height="768" alt="Code for Norge" src="https://github.com/user-attachments/assets/547e2db8-a5c4-4da1-8c41-ce4fd69b0329" />
 
 # Code for Norway 🇳🇴
 
