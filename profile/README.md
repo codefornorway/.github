@@ -127,7 +127,7 @@ We welcome contributors from all disciplines and sectors.
 
 ## Administrative Details
 
-**Last Update**: 14 July 2025
+**Last Update**: 01 Aug 2025
 
 ### Legal & Compliance
 
@@ -138,8 +138,8 @@ We welcome contributors from all disciplines and sectors.
 
 ## Contact and Communication
 
-* 📧 Email: [sefabulak@icloud.com](mailto:sefabulak@icloud.com)
-* 💬 Community Threads: [GitHub Discussions](https://github.com/codefornorway/help-map/discussions)
+* 📧 Email: [codefornorway@gmail.com](mailto:codefornorway@gmail.com)
+* 💬 Community Threads: [GitHub Discussions](https://github.com/codefornorway/.github/discussions)
 * 🗂 Issue Tracking: Use the issue tab in each relevant repository
 
 <div align="center">
