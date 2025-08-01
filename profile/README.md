@@ -123,7 +123,7 @@ We welcome contributors from all disciplines and sectors.
 
 * [What is civic tech?](https://codeforall.org/about/)
 * [How to contribute without coding?](https://opensource.guide/how-to-contribute/)
-* [Are municipalities encouraged to collaborate?](mailto:sefabulak@icloud.com)
+* [Are municipalities encouraged to collaborate?](mailto:codefornorway@gmail.com)
 
 ## Administrative Details
 
