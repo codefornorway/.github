@@ -123,7 +123,7 @@ We welcome contributors from all disciplines and sectors.
 
 * [What is civic tech?](https://codeforall.org/about/)
 * [How to contribute without coding?](https://opensource.guide/how-to-contribute/)
-* [Are municipalities encouraged to collaborate?](mailto:codefornorway@gmail.com)
+* [Are municipalities encouraged to collaborate?](mailto:hey@codefornorway.org)
 
 ## Administrative Details
 
@@ -138,8 +138,8 @@ We welcome contributors from all disciplines and sectors.
 
 ## Contact and Communication
 
-* 📧 Email: [codefornorway@gmail.com](mailto:codefornorway@gmail.com)
-* 💬 Community Threads: [GitHub Discussions](https://github.com/codefornorway/.github/discussions)
+* 📧 Email: [hey@codefornorway.org](mailto:hey@codefornorway.org)
+* 💬 Community Threads: [GitHub Discussions](https://github.com/orgs/codefornorway/discussions)
 * 🗂 Issue Tracking: Use the issue tab in each relevant repository
 
 <div align="center">
