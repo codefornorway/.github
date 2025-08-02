@@ -1,4 +1,4 @@
-[Code for Norway](https://github.com/codefornorway) > [Projects](https://github.com/codefornorway/help-map)  
+[Code for Norway](https://github.com/codefornorway) > [Projects](https://github.com/codefornorway#flagship-project-help-map)  
 🌐 Official Website: [codefornorway.org](https://codefornorway.org)
 
 ![Code for Norway – Building Civic Technology for Public Good](https://github.com/user-attachments/assets/547e2db8-a5c4-4da1-8c41-ce4fd69b0329)
